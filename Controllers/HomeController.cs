@@ -23,7 +23,11 @@ namespace MakeupServices.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Blog()
+        {
+            return View();
+        }
+        public IActionResult About()    
         {
             return View();
         }
